@@ -1,0 +1,38 @@
+:root {
+  --bg: #0b0f14;
+  --surface: #151b23;
+  --raised: #1e2630;
+  --border: #2a3440;
+  --text: #f2f4f7;
+  --muted: #9aa4b2;
+  --accent: #ff6b00;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+a { color: var(--accent); }
+.wrap { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+nav { display: flex; align-items: center; gap: 12px; margin-bottom: 32px; flex-wrap: wrap; }
+nav .brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 20px; color: var(--text); text-decoration: none; margin-right: auto; }
+nav .brand img { width: 36px; height: 36px; border-radius: 9px; }
+nav .brand span { color: var(--accent); }
+nav a.link { color: var(--muted); text-decoration: none; font-size: 14px; font-weight: 600; }
+h1 { font-size: 40px; line-height: 1.15; margin: 0 0 12px; }
+h2 { font-size: 22px; margin: 32px 0 8px; }
+p, li { color: var(--muted); }
+strong { color: var(--text); }
+.kicker { color: var(--accent); font-weight: 800; letter-spacing: 2px; font-size: 13px; }
+.hero { padding: 28px 24px; border: 1px solid rgba(255, 107, 0, 0.35); border-radius: 16px; background: var(--surface); }
+.btn { display: inline-block; margin-top: 16px; padding: 16px 28px; border-radius: 12px; background: var(--accent); color: #fff; font-weight: 800; font-size: 18px; text-decoration: none; }
+.small { font-size: 13px; color: var(--muted); }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-top: 24px; }
+.card { padding: 16px; border-radius: 16px; background: var(--surface); border: 1px solid var(--border); }
+.card b { display: block; color: var(--text); margin: 6px 0 2px; }
+.card p { margin: 0; font-size: 14px; }
+ol li { margin-bottom: 6px; }
+footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 13px; color: var(--muted); text-align: center; }
+footer b { color: var(--accent); }
