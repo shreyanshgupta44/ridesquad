@@ -55,7 +55,7 @@ RideSquad only shares your location **while you are in an active ride**, and onl
 
 ## Contact
 
-Questions, bugs or ideas: **[ridesquad.app@gmail.com](mailto:ridesquad.app@gmail.com)**
+Questions, bugs or ideas: **[ridesquad.support@gmail.com](mailto:ridesquad.support@gmail.com)**
 
 ---
 
