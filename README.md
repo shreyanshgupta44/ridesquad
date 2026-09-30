@@ -10,7 +10,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/shreyanshgupta44/ridesquad/releases/latest/download/RideSquad.apk"><b>⬇ Download for Android</b></a>
+  <a href="https://indusapp.store/5z1x7blv"><img src="qr-indus.svg" width="180" alt="QR code to get RideSquad on Indus Appstore"></a><br>
+  <sub>Scan to get it on Indus Appstore</sub>
+</p>
+
+<p align="center">
+  <a href="https://indusapp.store/5z1x7blv"><b>Get it on Indus Appstore</b></a>
+  ·
+  <a href="https://github.com/shreyanshgupta44/ridesquad/releases/latest/download/RideSquad.apk">⬇ Download APK</a>
   ·
   <a href="https://shreyanshgupta44.github.io/ridesquad/">Website</a>
   ·
@@ -34,7 +41,11 @@
 
 ## Install (Android)
 
-1. Tap **[Download for Android](https://github.com/shreyanshgupta44/ridesquad/releases/latest/download/RideSquad.apk)**.
+**Easiest:** scan the QR code above or open **[RideSquad on Indus Appstore](https://indusapp.store/5z1x7blv)** and install it from there.
+
+Or install the APK directly:
+
+1. Tap **[Download APK](https://github.com/shreyanshgupta44/ridesquad/releases/latest/download/RideSquad.apk)**.
 2. Open the downloaded **RideSquad.apk**.
 3. If Android asks, allow installing apps from your browser (**Settings → Allow from this source**).
 4. Tap **Install** and open RideSquad.

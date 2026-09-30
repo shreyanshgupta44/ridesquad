@@ -26,7 +26,13 @@ h2 { font-size: 22px; margin: 32px 0 8px; }
 p, li { color: var(--muted); }
 strong { color: var(--text); }
 .kicker { color: var(--accent); font-weight: 800; letter-spacing: 2px; font-size: 13px; }
-.hero { padding: 28px 24px; border: 1px solid rgba(255, 107, 0, 0.35); border-radius: 16px; background: var(--surface); }
+.hero { padding: 28px 24px; border: 1px solid rgba(255, 107, 0, 0.35); border-radius: 16px; background: var(--surface); display: flex; align-items: center; gap: 24px; }
+.hero-text { flex: 1; min-width: 0; }
+.qr { display: flex; flex-direction: column; align-items: center; gap: 8px; flex-shrink: 0; text-decoration: none; }
+.qr img { display: block; width: 160px; height: 160px; padding: 8px; background: #fff; border-radius: 16px; }
+.qr span { font-size: 13px; color: var(--muted); font-weight: 600; }
+/* On a phone the QR is pointless (you can't scan your own screen) — the button does the job. */
+@media (max-width: 640px) { .qr { display: none; } }
 .btn { display: inline-block; margin-top: 16px; padding: 16px 28px; border-radius: 12px; background: var(--accent); color: #fff; font-weight: 800; font-size: 18px; text-decoration: none; }
 .btn.ghost { background: transparent; color: var(--accent); border: 2px solid var(--accent); padding: 14px 26px; }
 .ctas { display: flex; flex-wrap: wrap; gap: 12px; }
