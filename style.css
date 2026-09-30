@@ -28,6 +28,9 @@ strong { color: var(--text); }
 .kicker { color: var(--accent); font-weight: 800; letter-spacing: 2px; font-size: 13px; }
 .hero { padding: 28px 24px; border: 1px solid rgba(255, 107, 0, 0.35); border-radius: 16px; background: var(--surface); }
 .btn { display: inline-block; margin-top: 16px; padding: 16px 28px; border-radius: 12px; background: var(--accent); color: #fff; font-weight: 800; font-size: 18px; text-decoration: none; }
+.btn.ghost { background: transparent; color: var(--accent); border: 2px solid var(--accent); padding: 14px 26px; }
+.ctas { display: flex; flex-wrap: wrap; gap: 12px; }
+.ctas .btn { margin-top: 16px; }
 .small { font-size: 13px; color: var(--muted); }
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin-top: 24px; }
 .card { padding: 16px; border-radius: 16px; background: var(--surface); border: 1px solid var(--border); }
